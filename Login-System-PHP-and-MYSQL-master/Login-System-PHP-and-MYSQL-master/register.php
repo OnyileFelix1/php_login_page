@@ -20,6 +20,8 @@
             $age = $_POST['age'];
             $password = $_POST['password'];
 
+        
+
          $verify_query = mysqli_query($con,"SELECT Email FROM users WHERE Email='$email'");
 
          if(mysqli_num_rows($verify_query) !=0 ){
@@ -43,7 +45,13 @@
          }else{
          
         ?>
+            <label>User Name</label>
+     	<input type="text" name="uname" placeholder="User Name"><br>
 
+     	<label>User Password</label>
+     	<input type="password" name="password" placeholder="Password"><br>
+
+     	<button type="submit">Login</button>
             <header>Sign Up</header>
             <form action="" method="post">
                 <div class="field input">

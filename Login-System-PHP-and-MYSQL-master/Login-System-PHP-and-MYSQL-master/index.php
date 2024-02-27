@@ -13,10 +13,11 @@
      	<label>User Name</label>
      	<input type="text" name="uname" placeholder="User Name"><br>
 
-     	<label>User Name</label>
+     	<label>User Password</label>
      	<input type="password" name="password" placeholder="Password"><br>
 
      	<button type="submit">Login</button>
+		<button type="submit" ><a href="C:\xampp\htdocs\Login-System-PHP-and-MYSQL-master\Login-System-PHP-and-MYSQL-master\register.php">Don't have an account?</button></a>
      </form>
 </body>
 </html>
