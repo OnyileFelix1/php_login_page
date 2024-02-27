@@ -20,8 +20,6 @@
             $age = $_POST['age'];
             $password = $_POST['password'];
 
-         //verifying the unique email
-
          $verify_query = mysqli_query($con,"SELECT Email FROM users WHERE Email='$email'");
 
          if(mysqli_num_rows($verify_query) !=0 ){
