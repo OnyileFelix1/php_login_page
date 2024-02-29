@@ -38,20 +38,12 @@
                       <p>Registration successfully!</p>
                   </div> <br>";
             echo "<a href='index.php'><button class='btn'>Login Now</button>";
-         
-
          }
 
          }else{
          
         ?>
-            <label>User Name</label>
-     	<input type="text" name="uname" placeholder="User Name"><br>
-
-     	<label>User Password</label>
-     	<input type="password" name="password" placeholder="Password"><br>
-
-     	<button type="submit">Login</button>
+           >
             <header>Sign Up</header>
             <form action="" method="post">
                 <div class="field input">
