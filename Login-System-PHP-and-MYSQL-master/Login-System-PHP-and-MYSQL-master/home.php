@@ -7,7 +7,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HOME</title>
+	<title>HOM</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
