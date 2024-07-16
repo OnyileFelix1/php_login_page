@@ -1,5 +1,5 @@
 <?php 
-session_start();
+session_stat();
 
 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
