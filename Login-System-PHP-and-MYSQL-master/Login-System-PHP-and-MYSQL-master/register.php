@@ -47,7 +47,7 @@
             <header>Sign Up</header>
             <form action="" method="post">
                 <div class="field input">
-                    <label fo="username">Username</label>
+                    <label for="username">Username</label>
                     <input type="text" name="username" id="username" autocomplete="off" required>
                 </div>
 
