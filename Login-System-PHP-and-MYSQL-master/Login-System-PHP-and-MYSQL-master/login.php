@@ -5,7 +5,7 @@ include "db_conn.php";
 
 
 
-if (isset($_POST['uname']) && isset($_POST['password'])) {
+ (isset($_POST['uname']) && isset($_POST['password'])) {
 
 	function validate($data){
        $data = trim($data);
