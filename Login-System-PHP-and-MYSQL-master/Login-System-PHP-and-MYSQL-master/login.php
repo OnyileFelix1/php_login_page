@@ -15,8 +15,10 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 	}
 
 	$uname = validate($_POST['uname']);
+	$sname = validate($_POST['sname']);
+	$lname = validate($_POST['lname']);
 	$pass = validate($_POST['password']);
-
+	
 	
 
 	if (empty($uname)) {
@@ -36,6 +38,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             if ($row['user_name'] === $uname && $row['password'] === $pass) {
             	$_SESSION['user_name'] = $row['user_name'];
             	$_SESSION['name'] = $row['name'];
+		    
             	$_SESSION['id'] = $row['id'];
             	header("Location: home.php");
 		        exit();
