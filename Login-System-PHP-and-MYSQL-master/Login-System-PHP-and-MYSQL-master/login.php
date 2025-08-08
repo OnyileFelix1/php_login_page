@@ -15,8 +15,6 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 	}
 
 	$uname = validate($_POST['uname']);
-	$sname = validate($_POST['sname']);
-	$lname = validate($_POST['lname']);
 	$pass = validate($_POST['password']);
 	
 	
@@ -56,3 +54,4 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 	header("Location: index.php");
 	exit();
 }
+
