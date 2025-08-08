@@ -16,9 +16,7 @@
          include("php/config.php");
          if(isset($_POST['submit'])){
             $username = $_POST['username'];
-            $email = $_POST['email'];
-            $age = $_POST['age'];
-            $password = $_POST['password'];
+            
 
         
 
@@ -78,3 +76,4 @@
       </div>
 </body>
 </html>
+
